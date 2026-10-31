@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "debrisfinder",
+  "version": "${version}",
+  "name": "Debris Finder",
+  "description": "Predicts ancient debris from the world seed and outlines it through walls.",
+  "authors": ["Psu"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.psu.debrisfinder.DebrisFinder"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "mixins": ["debrisfinder.mixins.json"]
+}
