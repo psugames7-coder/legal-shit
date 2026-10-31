@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.psu.debrisfinder.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BiomeAccessAccessor",
+    "BlockDisplayInvoker",
+    "ChatHudMixin",
+    "EntityMixin",
+    "EntityRendererMixin",
+    "MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
